@@ -243,6 +243,20 @@ The proposed architecture is therefore evaluated against conventional DETFF impl
 
 The implemented circuits undergo multiple stages of verification.
 
+### Final Comparison Plots
+
+**Power vs. Supply Voltage**
+
+![Power vs Supply Voltage](DETFF_Plots/Power_Vdd_Final.png)
+
+**Delay vs. Supply Voltage**
+
+![Delay vs Supply Voltage](DETFF_Plots/Delay_Vdd_Final.png)
+
+**Power vs. Process Corner**
+
+![Power vs Process Corner](DETFF_Plots/Power_Corner_Final.png)
+
 ### Functional Verification
 
 Transient simulations are used to verify correct data capture on both clock edges.
