@@ -7,8 +7,9 @@ A Cadence Virtuoso-based VLSI design project focused on the implementation, simu
 The work culminates in the implementation and evaluation of a **Single-Transistor Clocked (STC) DETFF** architecture based on the referenced IEEE research paper.
 
 ---
-**Tools:** Cadence Virtuoso • Spectre • Virtuoso Layout Suite • 
+**Tools:** Cadence Virtuoso •
 ---
+
 ## Project Overview
 
 Flip-flops are fundamental sequential elements in digital integrated circuits and can contribute significantly to overall system power consumption due to their continuous clock activity.
