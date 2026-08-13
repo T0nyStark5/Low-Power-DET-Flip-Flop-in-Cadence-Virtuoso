@@ -63,22 +63,20 @@ This repository presents the implementation and comparison of multiple DETFF arc
 │   ├── Final_Presentation.pdf
 │   └── Reference_Papers/
 │
-├── cadence/
-│   ├── schematics/
-│   ├── layouts/
-│   ├── symbols/
-│   ├── testbenches/
-│   └── simulation_states/
+├── Cadence_Virtuoso/
+│   ├── DETFF/
 │
-├── results/
-│   ├── waveforms/
-│   ├── power/
-│   ├── delay/
-│   ├── comparison/
-│   └── layouts/
-│
-├── figures/
-│
+├── DETFF_Plots/
+│   ├── FNC_DET/
+│   ├── FS_TSPC_DET/
+│   ├── Proposed/
+│   ├── S_DET/
+│   └── S_TSPC_DET/
+│   └── TGFF/
+│   └── Delay_Vdd_Final.png/
+│   └── Power_Corner_Final.png/
+│   └── Power_Vdd_Final.png/
+│   
 ├── LICENSE
 └── README.md
 ```
@@ -139,10 +137,16 @@ The repository contains an independent implementation created for academic and e
 ---
 
 ## Authors
-
+**Bharat Kumar DD**
+**Vinay P Ramesh**
+**R Vaikunth**
+**Surya Sumeet Singh**
+**Pravin Kumar V**
 **Shudharshan A**
+**Harshith Krishna R**
 
-M.Tech Integrated Electronics and Communication Engineering
+
+Integrated M.Tech  Electronics and Communication Engineering
 
 IIIT Bangalore
 
