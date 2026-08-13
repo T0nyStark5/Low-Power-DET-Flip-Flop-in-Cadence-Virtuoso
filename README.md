@@ -1,7 +1,7 @@
 # Low-Power Dual-Edge Triggered Flip-Flop in Cadence Virtuoso
 
 > **Transistor-Level Design, Layout, Simulation, and Comparative Analysis of Dual-Edge Triggered Flip-Flop Architectures**
-
+**Tools:** Cadence Virtuoso • Spectre • Virtuoso Layout Suite • DRC • LVS
 A Cadence Virtuoso-based VLSI design project focused on the implementation, simulation, layout, and performance comparison of multiple **Dual-Edge Triggered Flip-Flop (DETFF)** architectures. The project investigates low-power flip-flop designs and evaluates their **power consumption, propagation delay, Power-Delay Product (PDP), transistor count, and physical area**.
 
 The work culminates in the implementation and evaluation of a **Single-Transistor Clocked (STC) DETFF** architecture based on the referenced IEEE research paper.
