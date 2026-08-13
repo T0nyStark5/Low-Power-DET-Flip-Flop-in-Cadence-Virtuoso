@@ -1,0 +1,7 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary Proposed_STC_DET
+clk 4 clk 500 12000 metal2_conn
+Q_b 22 Q_b 49500 18000 metal1_conn
+D 1 D 500 24000 metal2_conn
+vdd 23 vdd 25000 35500 metal1_conn
+gnd 20 gnd 25000 500 metal1_conn

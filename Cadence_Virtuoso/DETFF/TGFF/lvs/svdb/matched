@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   24.10-p035
+#####  NVN Run Start                 :   Wed May  6 15:17:38 2026
+#####  ERC Summary File              :   TGFF.sum
+#####  Extraction Report File        :   TGFF.rep
+#####  Comparison Report File        :   TGFF.rep.cls
+#####  Top Cell                      :   TGFF  <vs>  TGFF
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   DETFF TGFF layout
+#####  Schematic File                :   /home/redhatacademy7/DETFF/TGFF/lvs/TGFF.cdl (cdl)
+#####  Rules File                    :   /home/redhatacademy7/DETFF/TGFF/lvs/.technology.rul
+#####  Pin Swap File                 :   TGFF.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 0s - (0s)
+#####  Extraction Peak Memory Usage  :   31.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   263.57MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 0s - (0s)                 
+#####  LVS Total Peak Memory Usage   :   263.57MB
+#####  
+##############################################################################################################
+
+

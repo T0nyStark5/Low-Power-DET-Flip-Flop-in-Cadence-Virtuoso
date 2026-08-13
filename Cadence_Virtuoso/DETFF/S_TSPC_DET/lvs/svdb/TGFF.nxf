@@ -1,0 +1,28 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary TGFF
+# XXXX: End of header.
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% TGFF 5 TGFF 5 
+0 7 0 CLKA
+0 2 0 CLKB
+0 8 0 net12
+0 11 0 net8
+0 3 0 net20
+0 4 0 net10
+0 5 0 net5
+0 12 0 net23
+0 10 0 net3
+0 CLK 0 CLK
+0 D 0 D
+0 Q 0 Q
+0 gnd 0 gnd
+0 vdd 0 vdd

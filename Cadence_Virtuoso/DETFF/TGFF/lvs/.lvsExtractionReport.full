@@ -1,0 +1,37 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : TGFF.rep
+ERC Summary File         : TGFF.sum
+LVS Comparison Report    : TGFF.rep.cls
+LVS Softchk Report       : TGFF.softchk
+Layout Name              : /home/redhatacademy7/DETFF/TGFF/lvs/TGFF.gds ("TGFF")
+User Name                : redhatac
+Creation Time            : Wed May  6 15:17:34 2026
+Current directory        : /home/redhatacademy7/DETFF/TGFF/lvs
+PVS Version              : 24.10-p035 Thu Aug 22 18:07:17 PDT 2024
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "M1_PO_CDNS_778095050760"
+ for cell "M1_PO_CDNS_778095050762"
+ for cell "M2_M1_CDNS_778095050761"
+ for cell "M2_M1_CDNS_778095050763"
+ for cell "TGFF"
+ for cell "nmos1v_3_CDNS_778095050760"
+ for cell "pmos1v_3_CDNS_778095050761"

@@ -1,0 +1,17 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometryAndText"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"DETFF"
+logFile	"/home/redhatacademy7/DETFF/FS_TSPC_DET_copy/lvs/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/redhatacademy7/DETFF/FS_TSPC_DET_copy/lvs"
+strmFile	"/home/redhatacademy7/DETFF/FS_TSPC_DET_copy/lvs/FS_TSPC_DET_copy.gds"
+strmVersion	5
+techLib	"gpdk045"
+topCell	"FS_TSPC_DET_copy"
+view	"layout"
+enableColoring

@@ -1,0 +1,17 @@
+
+/mnt/cadence_tools/pvs24.1/PVS24.10.000_lnx86.Base/CDROM1/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : Proposed_STC_DET_169227.db
+ECDB dir        : ./
+Top Cell        : Proposed_STC_DET
+CDL netlist     : /home/redhatacademy7/DETFF/Proposed_STC_DET/lvs/svdb/Proposed_STC_DET.net
+Layer map file  : /home/redhatacademy7/DETFF/Proposed_STC_DET/lvs/svdb/Proposed_STC_DET.ecdbmap
+Text map file   : /home/redhatacademy7/DETFF/Proposed_STC_DET/lvs/svdb/Proposed_STC_DET.ports
+Dependency map  : Proposed_STC_DET.lmap.perc
+Lvs file        : /home/redhatacademy7/DETFF/Proposed_STC_DET/lvs/svdb/Proposed_STC_DET.lvsfile
+Float net file  : .Proposed_STC_DET.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : Proposed_STC_DET_169227

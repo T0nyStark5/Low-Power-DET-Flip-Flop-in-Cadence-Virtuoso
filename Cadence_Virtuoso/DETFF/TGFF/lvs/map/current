@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "TGFF"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/redhatacademy7/DETFF/TGFF/lvs/"
+ )
+( model
+( "DETFF/TGFF/schematic" "TGFF" )
+ )
+( "TGFF" "ihnl/cds0/map" )
+ )

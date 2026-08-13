@@ -1,0 +1,56 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  DETFF
+* Top Cell Name: TGFF
+* View Name:     schematic
+* Netlisted on:  May  6 15:17:31 2026
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: DETFF
+* Cell Name:    TGFF
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT TGFF CLK D Q gnd vdd
+*.PININFO CLK:I D:I Q:O gnd:B vdd:B
+MPM24 CLKA CLKB vdd vdd g45p1svt m=1 l=45n w=600n
+MPM23 CLKB CLK vdd vdd g45p1svt m=1 l=45n w=600n
+MPM15 net12 CLKB net8 vdd g45p1svt m=1 l=45n w=600n
+MPM16 net20 net12 vdd vdd g45p1svt m=1 l=45n w=600n
+MPM17 net8 net20 vdd vdd g45p1svt m=1 l=45n w=600n
+MPM18 net20 CLKB net10 vdd g45p1svt m=1 l=45n w=600n
+MPM22 Q net5 vdd vdd g45p1svt m=1 l=45n w=600n
+MPM20 net10 CLKA net23 vdd g45p1svt m=1 l=45n w=600n
+MPM19 net23 net5 vdd vdd g45p1svt m=1 l=45n w=600n
+MPM14 net3 CLKA net12 vdd g45p1svt m=1 l=45n w=600n
+MPM21 net5 net10 vdd vdd g45p1svt m=1 l=45n w=600n
+MPM0 net3 D vdd vdd g45p1svt m=1 l=45n w=600n
+MNM24 CLKA CLKB gnd gnd g45n1svt m=1 l=45n w=300n
+MNM23 CLKB CLK gnd gnd g45n1svt m=1 l=45n w=300n
+MNM15 net12 CLKA net8 gnd g45n1svt m=1 l=45n w=300n
+MNM19 net23 net5 gnd gnd g45n1svt m=1 l=45n w=300n
+MNM16 net20 net12 gnd gnd g45n1svt m=1 l=45n w=300n
+MNM18 net10 CLKB net23 gnd g45n1svt m=1 l=45n w=300n
+MNM17 net8 net20 gnd gnd g45n1svt m=1 l=45n w=300n
+MNM14 net3 CLKB net12 gnd g45n1svt m=1 l=45n w=300n
+MNM22 Q net5 gnd gnd g45n1svt m=1 l=45n w=300n
+MNM21 net20 CLKA net10 gnd g45n1svt m=1 l=45n w=300n
+MNM0 net3 D gnd gnd g45n1svt m=1 l=45n w=300n
+MNM20 net5 net10 gnd gnd g45n1svt m=1 l=45n w=300n
+.ENDS
+

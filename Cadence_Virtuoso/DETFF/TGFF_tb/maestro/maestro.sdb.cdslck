@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      redhatacademy7
+HostName                       redhatacademy7
+ProcessIdentifier              2124228
+ProcessCreationTime_UTC        1778360733
+ProcessCreationTime_Readable   Sat May  9 17:05:33 2026 EDT
+AppIdentifier                  /mnt/cadence_tools/IC23.1/IC/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/redhatacademy7/DETFF/TGFF_tb/maestro/maestro.sdb
+TimeEditLocked                 Sat May  9 18:00:07 2026 EDT

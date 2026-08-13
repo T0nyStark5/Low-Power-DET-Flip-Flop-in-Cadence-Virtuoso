@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      redhatacademy7
+HostName                       redhatacademy7
+ProcessIdentifier              1915022
+ProcessCreationTime_UTC        1778321535
+ProcessCreationTime_Readable   Sat May  9 06:12:15 2026 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/redhatacademy7/DETFF/TGFF/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat May  9 06:19:27 2026 EDT

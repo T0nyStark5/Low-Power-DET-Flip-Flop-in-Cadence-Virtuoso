@@ -1,0 +1,60 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Apr 14 15:38:06 2026 *
+***********************************************************
+
+
+*pvsViewList = auCdl schematic
+*pvsStopList = ("auCdl")
+*pvsSimName  = auCdl
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt FNC_DET CLK D Q gnd vdd
+*PVSCELL netlisted from DETFF FNC_DET schematic
+  MNM1 B D net4 gnd g45n1svt m=1 l=45n w=300n
+  MNM10 net9 A net4 gnd g45n1svt m=1 l=45n w=300n
+  MNM11 A D net21 gnd g45n1svt m=1 l=45n w=300n
+  MNM12 X B net23 gnd g45n1svt m=1 l=45n w=300n
+  MNM13 net23 A gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM14 X A net30 gnd g45n1svt m=1 l=45n w=300n
+  MNM15 net30 B gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM16 net23 QB net30 gnd g45n1svt m=1 l=45n w=300n
+  MNM17 QB X gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM18 Q QB gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM19 CKB CLK gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM2 net4 CKB gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM20 CKI CKB gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM5 net21 CKI gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM7 net37 B net21 gnd g45n1svt m=1 l=45n w=300n
+  MNM8 A X net37 gnd g45n1svt m=1 l=45n w=300n
+  MNM9 B X net9 gnd g45n1svt m=1 l=45n w=300n
+  MPM0 B D net25 vdd g45p1svt m=1 l=45n w=600n
+  MPM10 net10 A net25 vdd g45p1svt m=1 l=45n w=600n
+  MPM11 B X net10 vdd g45p1svt m=1 l=45n w=600n
+  MPM14 A D net1 vdd g45p1svt m=1 l=45n w=600n
+  MPM15 net5 A vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM16 X B net5 vdd g45p1svt m=1 l=45n w=600n
+  MPM17 net13 B vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM18 X A net13 vdd g45p1svt m=1 l=45n w=600n
+  MPM19 net5 QB net13 vdd g45p1svt m=1 l=45n w=600n
+  MPM2 net25 CKB vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM20 QB X vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM21 Q QB vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM22 CKB CLK vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM24 CKI CKB vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM5 A X net31 vdd g45p1svt m=1 l=45n w=600n
+  MPM7 net1 CKI vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM8 net31 B net1 vdd g45p1svt m=1 l=45n w=600n
+.ends FNC_DET
+
+
+***********************************************************
+*             Completed at Apr 14 15:38:06 2026           *
+***********************************************************

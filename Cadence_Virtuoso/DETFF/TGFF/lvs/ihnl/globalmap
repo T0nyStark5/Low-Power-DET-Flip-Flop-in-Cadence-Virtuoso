@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+DETFF/TGFF/schematic TGFF
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,17 @@
+
+/mnt/cadence_tools/pvs24.1/PVS24.10.000_lnx86.Base/CDROM1/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : FNC_DET_429211.db
+ECDB dir        : ./
+Top Cell        : FNC_DET
+CDL netlist     : /home/redhatacademy7/DETFF/FNC_DET/lvs/svdb/FNC_DET.net
+Layer map file  : /home/redhatacademy7/DETFF/FNC_DET/lvs/svdb/FNC_DET.ecdbmap
+Text map file   : /home/redhatacademy7/DETFF/FNC_DET/lvs/svdb/FNC_DET.ports
+Dependency map  : FNC_DET.lmap.perc
+Lvs file        : /home/redhatacademy7/DETFF/FNC_DET/lvs/svdb/FNC_DET.lvsfile
+Float net file  : .FNC_DET.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : FNC_DET_429211

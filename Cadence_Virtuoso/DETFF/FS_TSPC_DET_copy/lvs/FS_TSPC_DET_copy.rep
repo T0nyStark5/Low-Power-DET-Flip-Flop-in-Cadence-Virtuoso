@@ -1,0 +1,28 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : FS_TSPC_DET_copy.rep
+ERC Summary File         : FS_TSPC_DET_copy.sum
+LVS Comparison Report    : FS_TSPC_DET_copy.rep.cls
+LVS Softchk Report       : FS_TSPC_DET_copy.softchk
+Layout Name              : /home/redhatacademy7/DETFF/FS_TSPC_DET_copy/lvs/FS_TSPC_DET_copy.gds ("FS_TSPC_DET_copy")
+User Name                : redhatac
+Creation Time            : Mon Apr 13 15:26:45 2026
+Current directory        : /home/redhatacademy7/DETFF/FS_TSPC_DET_copy/lvs
+PVS Version              : 24.10-p035 Thu Aug 22 18:07:17 PDT 2024
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)

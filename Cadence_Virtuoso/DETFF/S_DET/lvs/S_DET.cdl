@@ -1,0 +1,52 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Apr 15 06:18:49 2026 *
+***********************************************************
+
+
+*pvsViewList = auCdl schematic
+*pvsStopList = ("auCdl")
+*pvsSimName  = auCdl
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt S_DET CLK D Q gnd vdd
+*PVSCELL netlisted from DETFF S_DET schematic
+  MNM12 CKB CLK gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM13 net16 net4 net12 gnd g45n1svt m=1 l=45n w=300n
+  MNM14 net12 CKI gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM15 CKI CKB gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM16 D CKI net23 gnd g45n1svt m=1 l=45n w=300n
+  MNM17 net24 net23 gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM18 net24 net23 net27 gnd g45n1svt m=1 l=45n w=300n
+  MNM19 net27 CKB gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM2 D CKB net4 gnd g45n1svt m=1 l=45n w=300n
+  MNM20 net24 CKB net20 gnd g45n1svt m=1 l=45n w=300n
+  MNM21 Q net20 gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM3 net16 CKI net20 gnd g45n1svt m=1 l=45n w=300n
+  MNM6 net16 net4 gnd gnd g45n1svt m=1 l=45n w=300n
+  MPM10 net16 net4 net5 vdd g45p1svt m=1 l=45n w=600n
+  MPM11 net4 CKI D vdd g45p1svt m=1 l=45n w=600n
+  MPM12 net20 CKB net16 vdd g45p1svt m=1 l=45n w=600n
+  MPM13 CKI CKB vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM14 net24 net23 net18 vdd g45p1svt m=1 l=45n w=600n
+  MPM15 net18 CKI vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM16 net23 CKB D vdd g45p1svt m=1 l=45n w=600n
+  MPM17 net24 net23 vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM18 net20 CKI net24 vdd g45p1svt m=1 l=45n w=600n
+  MPM19 Q net20 vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM2 net16 net4 vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM8 CKB CLK vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM9 net5 CKB vdd vdd g45p1svt m=1 l=45n w=600n
+.ends S_DET
+
+
+***********************************************************
+*             Completed at Apr 15 06:18:49 2026           *
+***********************************************************

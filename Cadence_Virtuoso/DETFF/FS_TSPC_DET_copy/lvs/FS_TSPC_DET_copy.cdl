@@ -1,0 +1,62 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Apr 13 15:26:45 2026 *
+***********************************************************
+
+
+*pvsViewList = auCdl schematic
+*pvsStopList = ("auCdl")
+*pvsSimName  = auCdl
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt FS_TSPC_DET_copy CLK D Q gnd vdd
+*PVSCELL netlisted from DETFF FS_TSPC_DET_copy schematic
+  MNM0 DP CLK net43 gnd g45n1svt m=1 l=45n w=300n
+  MNM1 net43 D gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM10 net60 QN gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM11 net28 CLK net60 gnd g45n1svt m=1 l=45n w=300n
+  MNM12 QN DN gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM13 QP DP gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM14 Qb QN net16 gnd g45n1svt m=1 l=45n w=300n
+  MNM15 net16 CLK gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM16 Qb CDP gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM17 Q Qb gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM2 DN CDN net49 gnd g45n1svt m=1 l=45n w=300n
+  MNM3 net49 D gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM4 CDN CLK net55 gnd g45n1svt m=1 l=45n w=300n
+  MNM5 net55 DN gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM6 CDP CLK gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM7 CDP DP gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM8 net37 CDP net53 gnd g45n1svt m=1 l=45n w=300n
+  MNM9 net53 QP gnd gnd g45n1svt m=1 l=45n w=300n
+  MPM0 net3 D vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM1 DP CDP net3 vdd g45p1svt m=1 l=45n w=600n
+  MPM10 QN DN vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM11 net34 QP vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM12 net37 CLK net34 vdd g45p1svt m=1 l=45n w=600n
+  MPM13 QP DP vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM14 net5 CLK vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM15 Qb CDP net5 vdd g45p1svt m=1 l=45n w=600n
+  MPM16 net5 QN vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM17 Q Qb vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM2 net7 DP vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM3 CDP CLK net7 vdd g45p1svt m=1 l=45n w=600n
+  MPM4 net13 D vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM5 DN CLK net13 vdd g45p1svt m=1 l=45n w=600n
+  MPM6 CDN CLK vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM7 CDN DN vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM8 net25 QN vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM9 net28 CDN net25 vdd g45p1svt m=1 l=45n w=600n
+.ends FS_TSPC_DET_copy
+
+
+***********************************************************
+*             Completed at Apr 13 15:26:45 2026           *
+***********************************************************

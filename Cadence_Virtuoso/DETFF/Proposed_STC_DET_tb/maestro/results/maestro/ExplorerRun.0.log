@@ -1,0 +1,24 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat May  9 17:26:57 2026 
+Best design point: 1
+Design specs: 
+	DETFF_Proposed_STC_DET_tb_1	corner	C0_0 - 
+	average((VT("/vdd") * IT("/I0/vdd")))		3.081u
+	DETFF_Proposed_STC_DET_tb_1	corner	C0_1 - 
+	average((VT("/vdd") * IT("/I0/vdd")))		3.054u
+	DETFF_Proposed_STC_DET_tb_1	corner	C0_2 - 
+	average((VT("/vdd") * IT("/I0/vdd")))		3.098u
+	DETFF_Proposed_STC_DET_tb_1	corner	C1 - 
+	average((VT("/vdd") * IT("/I0/vdd")))		3.655u
+	DETFF_Proposed_STC_DET_tb_1	corner	C2 - 
+	average((VT("/vdd") * IT("/I0/vdd")))		2.526u
+	DETFF_Proposed_STC_DET_tb_1	corner	Nominal - 
+	average((VT("/vdd") * IT("/I0/vdd")))		3.081u
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Sat May  9 17:27:19 2026 

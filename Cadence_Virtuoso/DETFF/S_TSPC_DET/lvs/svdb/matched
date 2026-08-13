@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   24.10-p035
+#####  NVN Run Start                 :   Sat May  9 07:12:12 2026
+#####  ERC Summary File              :   S_TSPC_DET.sum
+#####  Extraction Report File        :   S_TSPC_DET.rep
+#####  Comparison Report File        :   S_TSPC_DET.rep.cls
+#####  Top Cell                      :   S_TSPC_DET  <vs>  S_TSPC_DET
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   DETFF S_TSPC_DET layout
+#####  Schematic File                :   /home/redhatacademy7/DETFF/S_TSPC_DET/lvs/S_TSPC_DET.cdl (cdl)
+#####  Rules File                    :   /home/redhatacademy7/DETFF/S_TSPC_DET/lvs/.technology.rul
+#####  Pin Swap File                 :   S_TSPC_DET.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 1s - (1s)
+#####  Extraction Peak Memory Usage  :   31.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   267.34MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 1s - (1s)                 
+#####  LVS Total Peak Memory Usage   :   267.34MB
+#####  
+##############################################################################################################
+
+

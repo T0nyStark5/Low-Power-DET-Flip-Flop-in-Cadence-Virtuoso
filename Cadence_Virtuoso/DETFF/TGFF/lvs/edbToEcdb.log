@@ -1,0 +1,17 @@
+
+/mnt/cadence_tools/pvs24.1/PVS24.10.000_lnx86.Base/CDROM1/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : TGFF_731609.db
+ECDB dir        : ./
+Top Cell        : TGFF
+CDL netlist     : /home/redhatacademy7/DETFF/TGFF/lvs/svdb/TGFF.net
+Layer map file  : /home/redhatacademy7/DETFF/TGFF/lvs/svdb/TGFF.ecdbmap
+Text map file   : /home/redhatacademy7/DETFF/TGFF/lvs/svdb/TGFF.ports
+Dependency map  : TGFF.lmap.perc
+Lvs file        : /home/redhatacademy7/DETFF/TGFF/lvs/svdb/TGFF.lvsfile
+Float net file  : .TGFF.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : TGFF_731609

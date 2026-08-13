@@ -1,0 +1,68 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Apr 13 06:44:34 2026 *
+***********************************************************
+
+
+*pvsViewList = auCdl schematic
+*pvsStopList = ("auCdl")
+*pvsSimName  = auCdl
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt Proposed_STC_DET D Q_b clk gnd vdd
+*PVSCELL netlisted from DETFF Proposed_STC_DET schematic
+  MNM0 D_n D gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM1 X D_n gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM10 X MID net10 gnd g45n1svt m=1 l=45n w=300n
+  MNM11 MID_b MID gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM12 X_n D_n net2 gnd g45n1svt m=1 l=45n w=300n
+  MNM13 net2 clk gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM14 MID_n D net2 gnd g45n1svt m=1 l=45n w=300n
+  MNM15 MID_nb MID_n gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM16 MID_n X_n net17 gnd g45n1svt m=1 l=45n w=300n
+  MNM17 net17 MID_nb gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM18 Y_n MID_nb gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM19 QT Y_n gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM20 Y_n QT net24 gnd g45n1svt m=1 l=45n w=300n
+  MNM21 net24 clk gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM22 MID X gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM3 MID MID_b net10 gnd g45n1svt m=1 l=45n w=300n
+  MNM4 net10 clk gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM5 Y MID_b net7 gnd g45n1svt m=1 l=45n w=300n
+  MNM6 QT MID net7 gnd g45n1svt m=1 l=45n w=300n
+  MNM7 Q_b QT gnd gnd g45n1svt m=1 l=45n w=300n
+  MNM8 net7 clk gnd gnd g45n1svt m=1 l=45n w=300n
+  MPM0 D_n D vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM1 X D_n net4 vdd g45p1svt m=1 l=45n w=600n
+  MPM11 net21 clk vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM12 Y QT net21 vdd g45p1svt m=1 l=45n w=600n
+  MPM13 QT Y vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM14 MID_b MID vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM15 X_n D_n vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM16 MID_n X_n vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM17 X_n MID_n net11 vdd g45p1svt m=1 l=45n w=600n
+  MPM18 MID_nb MID_n vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM19 net11 clk vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM2 MID D net4 vdd g45p1svt m=1 l=45n w=600n
+  MPM20 MID_n MID_nb net11 vdd g45p1svt m=1 l=45n w=600n
+  MPM21 Y_n MID_nb net19 vdd g45p1svt m=1 l=45n w=600n
+  MPM22 net19 clk vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM23 QT MID_n net19 vdd g45p1svt m=1 l=45n w=600n
+  MPM3 net12 MID_b vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM4 MID X net12 vdd g45p1svt m=1 l=45n w=600n
+  MPM5 Y MID_b vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM8 net4 clk vdd vdd g45p1svt m=1 l=45n w=600n
+  MPM9 Q_b QT vdd vdd g45p1svt m=1 l=45n w=600n
+.ends Proposed_STC_DET
+
+
+***********************************************************
+*             Completed at Apr 13 06:44:34 2026           *
+***********************************************************

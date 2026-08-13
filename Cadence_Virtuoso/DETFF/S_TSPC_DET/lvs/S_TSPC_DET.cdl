@@ -1,0 +1,70 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  DETFF
+* Top Cell Name: S_TSPC_DET
+* View Name:     schematic
+* Netlisted on:  May  9 07:12:04 2026
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: DETFF
+* Cell Name:    S_TSPC_DET
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT S_TSPC_DET D Qb clk gnd vdd
+*.PININFO D:I clk:I Qb:O gnd:B vdd:B
+MNM24 DBN D gnd gnd g45n1svt m=1 l=45n w=300n
+MNM23 net90 D gnd gnd g45n1svt m=1 l=45n w=300n
+MNM22 DBP clk net90 gnd g45n1svt m=1 l=45n w=300n
+MNM21 net84 RH gnd gnd g45n1svt m=1 l=45n w=300n
+MNM20 net6 clk net84 gnd g45n1svt m=1 l=45n w=300n
+MNM19 net6 RL gnd gnd g45n1svt m=1 l=45n w=300n
+MNM17 RL clk gnd gnd g45n1svt m=1 l=45n w=300n
+MNM16 SNP RL gnd gnd g45n1svt m=1 l=45n w=300n
+MNM15 SNN clk net31 gnd g45n1svt m=1 l=45n w=300n
+MNM14 SNN DBN gnd gnd g45n1svt m=1 l=45n w=300n
+MNM13 net36 DBP gnd gnd g45n1svt m=1 l=45n w=300n
+MNM12 SNP clk net36 gnd g45n1svt m=1 l=45n w=300n
+MNM11 net31 net3 gnd gnd g45n1svt m=1 l=45n w=300n
+MNM4 DBN clk net4 gnd g45n1svt m=1 l=45n w=300n
+MNM3 net3 SNN gnd gnd g45n1svt m=1 l=45n w=300n
+MNM18 RH clk net3 gnd g45n1svt m=1 l=45n w=300n
+MNM2 RL SNP gnd gnd g45n1svt m=1 l=45n w=300n
+MNM25 Qb net6 gnd gnd g45n1svt m=1 l=45n w=300n
+MNM1 net4 SNN gnd gnd g45n1svt m=1 l=45n w=300n
+MPM27 Qb net6 vdd vdd g45p1svt m=1 l=45n w=600n
+MPM26 SNN RH vdd vdd g45p1svt m=1 l=45n w=600n
+MPM25 DBN clk net99 vdd g45p1svt m=1 l=45n w=600n
+MPM24 net99 D vdd vdd g45p1svt m=1 l=45n w=600n
+MPM23 DBP D vdd vdd g45p1svt m=1 l=45n w=600n
+MPM22 net6 RH vdd vdd g45p1svt m=1 l=45n w=600n
+MPM21 net70 RL vdd vdd g45p1svt m=1 l=45n w=600n
+MPM20 net6 clk net70 vdd g45p1svt m=1 l=45n w=600n
+MPM18 RH clk vdd vdd g45p1svt m=1 l=45n w=600n
+MPM17 SNP clk net42 vdd g45p1svt m=1 l=45n w=600n
+MPM16 SNN clk net48 vdd g45p1svt m=1 l=45n w=600n
+MPM15 net48 DBN vdd vdd g45p1svt m=1 l=45n w=600n
+MPM14 net42 net19 vdd vdd g45p1svt m=1 l=45n w=600n
+MPM13 SNP DBP vdd vdd g45p1svt m=1 l=45n w=600n
+MPM6 DBP clk net14 vdd g45p1svt m=1 l=45n w=600n
+MPM4 RH SNN vdd vdd g45p1svt m=1 l=45n w=600n
+MPM3 net14 SNP vdd vdd g45p1svt m=1 l=45n w=600n
+MPM2 net19 SNP vdd vdd g45p1svt m=1 l=45n w=600n
+MPM19 RL clk net19 vdd g45p1svt m=1 l=45n w=600n
+.ENDS
+

@@ -1,0 +1,7 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary FS_TSPC_DET_copy
+vdd 21 vdd 22480 35750 metal1_conn
+D 9 D 250 19300 metal2_conn
+gnd 12 gnd 22500 250 metal1_conn
+Q 19 Q 43750 18000 metal1_conn
+CLK 2 CLK 250 13660 metal2_conn

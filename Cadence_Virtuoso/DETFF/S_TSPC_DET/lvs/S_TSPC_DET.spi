@@ -1,0 +1,71 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : S_TSPC_DET                                   *
+* Netlisted  : Sat May  9 07:12:08 2026                     *
+* PVS Version: 24.10-p035 Thu Aug 22 18:07:17 PDT 2024      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(g45n1svt) _nmos1v ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 1 MP(g45p1svt) _pmos1v pdiff_conn(D) poly_conn(G) pdiff_conn(S) nwell_conn(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: pmos1v_3_CDNS_778325120130                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt pmos1v_3_CDNS_778325120130 S_source_0 D_drain_1 B_topTap 4
+** N=5 EP=4 FDC=1
+M0 D_drain_1 4 S_source_0 B_topTap g45p1svt L=4.5e-08 W=6e-07 AD=8.4e-14 AS=8.4e-14 PD=1.48e-06 PS=1.48e-06 fw=6e-07 sa=1.4e-07 sb=1.4e-07 sca=69.3272 scb=0.0652205 scc=0.00809762 $X=0 $Y=0 $dt=1
+.ends pmos1v_3_CDNS_778325120130
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_3_CDNS_778325120131                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_3_CDNS_778325120131 S_source_0 D_drain_1 B_botTap 4
+** N=4 EP=4 FDC=1
+M0 D_drain_1 4 S_source_0 B_botTap g45n1svt L=4.5e-08 W=3e-07 AD=4.2e-14 AS=4.2e-14 PD=8.8e-07 PS=8.8e-07 fw=3e-07 sa=1.4e-07 sb=1.4e-07 sca=3.45234 scb=0.000105824 scc=3.48932e-09 $X=0 $Y=0 $dt=0
+.ends nmos1v_3_CDNS_778325120131
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: S_TSPC_DET                                      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt S_TSPC_DET D Qb clk gnd vdd
+** N=24 EP=5 FDC=38
+X42 vdd 3 vdd D pmos1v_3_CDNS_778325120130 $T=3940 24600 0 0 $X=3520 $Y=24400
+X43 15 3 vdd clk pmos1v_3_CDNS_778325120130 $T=6030 24600 1 180 $X=5520 $Y=24400
+X44 vdd 15 vdd 4 pmos1v_3_CDNS_778325120130 $T=8030 24600 1 180 $X=7520 $Y=24400
+X45 vdd 4 vdd 3 pmos1v_3_CDNS_778325120130 $T=9940 24600 0 0 $X=9520 $Y=24400
+X46 16 4 vdd clk pmos1v_3_CDNS_778325120130 $T=12030 24600 1 180 $X=11520 $Y=24400
+X47 vdd 16 vdd 6 pmos1v_3_CDNS_778325120130 $T=14030 24600 1 180 $X=13520 $Y=24400
+X48 vdd 6 vdd 4 pmos1v_3_CDNS_778325120130 $T=15940 24600 0 0 $X=15520 $Y=24400
+X49 vdd 7 vdd 5 pmos1v_3_CDNS_778325120130 $T=17940 24600 0 0 $X=17520 $Y=24400
+X50 6 5 vdd clk pmos1v_3_CDNS_778325120130 $T=20030 24600 1 180 $X=19520 $Y=24400
+X51 7 12 vdd clk pmos1v_3_CDNS_778325120130 $T=21940 24600 0 0 $X=21520 $Y=24400
+X52 vdd 12 vdd 8 pmos1v_3_CDNS_778325120130 $T=24030 24600 1 180 $X=23520 $Y=24400
+X53 vdd 8 vdd 10 pmos1v_3_CDNS_778325120130 $T=25940 24600 0 0 $X=25520 $Y=24400
+X54 vdd 10 vdd 8 pmos1v_3_CDNS_778325120130 $T=27940 24600 0 0 $X=27520 $Y=24400
+X55 vdd 8 vdd clk pmos1v_3_CDNS_778325120130 $T=30030 24600 1 180 $X=29520 $Y=24400
+X56 vdd 17 vdd 11 pmos1v_3_CDNS_778325120130 $T=31940 24600 0 0 $X=31520 $Y=24400
+X57 17 10 vdd clk pmos1v_3_CDNS_778325120130 $T=33940 24600 0 0 $X=33520 $Y=24400
+X58 18 11 vdd clk pmos1v_3_CDNS_778325120130 $T=36030 24600 1 180 $X=35520 $Y=24400
+X59 vdd 18 vdd D pmos1v_3_CDNS_778325120130 $T=38030 24600 1 180 $X=37520 $Y=24400
+X60 vdd Qb vdd 12 pmos1v_3_CDNS_778325120130 $T=39940 24600 0 0 $X=39520 $Y=24400
+X61 gnd 20 gnd D nmos1v_3_CDNS_778325120131 $T=3940 4200 0 0 $X=3520 $Y=3640
+X62 20 3 gnd clk nmos1v_3_CDNS_778325120131 $T=5940 4200 0 0 $X=5520 $Y=3640
+X63 21 4 gnd clk nmos1v_3_CDNS_778325120131 $T=8030 4200 1 180 $X=7520 $Y=3640
+X64 gnd 21 gnd 3 nmos1v_3_CDNS_778325120131 $T=10030 4200 1 180 $X=9520 $Y=3640
+X65 gnd 5 gnd clk nmos1v_3_CDNS_778325120131 $T=11940 4200 0 0 $X=11520 $Y=3640
+X66 gnd 4 gnd 5 nmos1v_3_CDNS_778325120131 $T=13940 4200 0 0 $X=13520 $Y=3640
+X67 gnd 5 gnd 4 nmos1v_3_CDNS_778325120131 $T=15940 4200 0 0 $X=15520 $Y=3640
+X68 gnd 12 gnd 5 nmos1v_3_CDNS_778325120131 $T=17940 4200 0 0 $X=17520 $Y=3640
+X69 9 8 gnd clk nmos1v_3_CDNS_778325120131 $T=19940 4200 0 0 $X=19520 $Y=3640
+X70 22 12 gnd clk nmos1v_3_CDNS_778325120131 $T=22030 4200 1 180 $X=21520 $Y=3640
+X71 gnd 22 gnd 8 nmos1v_3_CDNS_778325120131 $T=24030 4200 1 180 $X=23520 $Y=3640
+X72 gnd 9 gnd 10 nmos1v_3_CDNS_778325120131 $T=25940 4200 0 0 $X=25520 $Y=3640
+X73 gnd 23 gnd 9 nmos1v_3_CDNS_778325120131 $T=27940 4200 0 0 $X=27520 $Y=3640
+X74 23 10 gnd clk nmos1v_3_CDNS_778325120131 $T=29940 4200 0 0 $X=29520 $Y=3640
+X75 gnd 10 gnd 11 nmos1v_3_CDNS_778325120131 $T=32030 4200 1 180 $X=31520 $Y=3640
+X76 gnd 24 gnd 10 nmos1v_3_CDNS_778325120131 $T=33940 4200 0 0 $X=33520 $Y=3640
+X77 24 11 gnd clk nmos1v_3_CDNS_778325120131 $T=35940 4200 0 0 $X=35520 $Y=3640
+X78 gnd 11 gnd D nmos1v_3_CDNS_778325120131 $T=38030 4200 1 180 $X=37520 $Y=3640
+X79 gnd Qb gnd 12 nmos1v_3_CDNS_778325120131 $T=39940 4200 0 0 $X=39520 $Y=3640
+.ends S_TSPC_DET

@@ -1,0 +1,17 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"DETFF"
+logFile	"/home/redhatacademy7/DETFF/TGFF/drc/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/redhatacademy7/DETFF/TGFF/drc"
+strmFile	"/home/redhatacademy7/DETFF/TGFF/drc/TGFF.gds"
+strmVersion	5
+techLib	"gpdk045"
+topCell	"TGFF"
+view	"layout"
+enableColoring

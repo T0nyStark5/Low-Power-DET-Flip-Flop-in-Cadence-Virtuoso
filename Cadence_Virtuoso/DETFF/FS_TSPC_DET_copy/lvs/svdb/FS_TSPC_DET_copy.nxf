@@ -1,0 +1,40 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary FS_TSPC_DET_copy
+# XXXX: End of header.
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% FS_TSPC_DET_copy 5 FS_TSPC_DET_copy 5 
+0 5 0 DP
+0 1 0 QN
+0 11 0 net28
+0 4 0 DN
+0 7 0 QP
+0 8 0 Qb
+0 6 0 CDP
+0 3 0 CDN
+0 17 0 net37
+0 CLK 0 CLK
+0 D 0 D
+0 Q 0 Q
+0 gnd 0 gnd
+0 vdd 0 vdd
+0 15 0 net43
+0 10 0 net60
+0 18 0 net16
+0 14 0 net49
+0 13 0 net55
+0 16 0 net53
+0 23 0 net3
+0 25 0 net34
+0 24 0 net7
+0 22 0 net13
+0 20 0 net25
+0 26 0 net5

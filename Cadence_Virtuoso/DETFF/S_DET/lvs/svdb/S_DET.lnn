@@ -1,0 +1,20 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary S_DET
+% M1_PO_CDNS_776248330160 1
+% M2_M1_CDNS_776248330161 1
+% M2_M1_CDNS_776248330162 1
+% M1_PO_CDNS_776248330163 1
+% pmos1v_3_CDNS_776248330160 5
+1 S_source_0
+2 D_drain_1
+3 B_topTap
+% nmos1v_3_CDNS_776248330161 4
+1 S_source_0
+2 D_drain_1
+3 B_botTap
+% S_DET 5
+1 CLK
+7 D
+8 vdd
+9 gnd
+14 Q

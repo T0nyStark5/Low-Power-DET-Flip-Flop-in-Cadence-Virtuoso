@@ -1,0 +1,35 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : Proposed_STC_DET.rep
+ERC Summary File         : Proposed_STC_DET.sum
+LVS Comparison Report    : Proposed_STC_DET.rep.cls
+LVS Softchk Report       : Proposed_STC_DET.softchk
+Layout Name              : /home/redhatacademy7/DETFF/Proposed_STC_DET/lvs/Proposed_STC_DET.gds ("Proposed_STC_DET")
+User Name                : redhatac
+Creation Time            : Mon Apr 13 06:44:35 2026
+Current directory        : /home/redhatacademy7/DETFF/Proposed_STC_DET/lvs
+PVS Version              : 24.10-p035 Thu Aug 22 18:07:17 PDT 2024
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "M1_PO_CDNS_776077074430"
+ for cell "M2_M1_CDNS_776077074431"
+ for cell "Proposed_STC_DET"
+ for cell "nmos1v_3_CDNS_776077074430"
+ for cell "pmos1v_3_CDNS_776077074431"

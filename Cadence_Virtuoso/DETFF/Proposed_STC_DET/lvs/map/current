@@ -1,0 +1,9 @@
+(
+  ( nil 
+    repList  " auCdl schematic"
+    stopList " auCdl"
+  )
+  ( model
+    ("DETFF/Proposed_STC_DET/schematic" "Proposed_STC_DET")
+  )
+)

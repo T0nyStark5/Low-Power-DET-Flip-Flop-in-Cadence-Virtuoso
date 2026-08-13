@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   24.10-p035
+#####  NVN Run Start                 :   Mon Apr 13 15:26:47 2026
+#####  ERC Summary File              :   FS_TSPC_DET_copy.sum
+#####  Extraction Report File        :   FS_TSPC_DET_copy.rep
+#####  Comparison Report File        :   FS_TSPC_DET_copy.rep.cls
+#####  Top Cell                      :   FS_TSPC_DET_copy  <vs>  FS_TSPC_DET_copy
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   DETFF FS_TSPC_DET_copy layout
+#####  Schematic File                :   /home/redhatacademy7/DETFF/FS_TSPC_DET_copy/lvs/FS_TSPC_DET_copy.cdl (cdl)
+#####  Rules File                    :   /home/redhatacademy7/DETFF/FS_TSPC_DET_copy/lvs/.technology.rul
+#####  Pin Swap File                 :   FS_TSPC_DET_copy.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 0s - (0s)
+#####  Extraction Peak Memory Usage  :   31.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   271.44MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 1s - (1s)                 
+#####  LVS Total Peak Memory Usage   :   271.44MB
+#####  
+##############################################################################################################
+
+
