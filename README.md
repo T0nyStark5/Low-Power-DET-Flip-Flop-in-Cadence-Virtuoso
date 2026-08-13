@@ -301,7 +301,7 @@ Please refer to the original publication for the complete theoretical methodolog
 - **Shudharshan A**
 - **Harshith Krishna R**
 
-**Integrated M.Tech. — Electronics and Communication Engineering, **
+**Integrated M.Tech. — Electronics and Communication Engineering in **
 **International Institute of Information Technology Bangalore (IIIT Bangalore)**
 
 ---
