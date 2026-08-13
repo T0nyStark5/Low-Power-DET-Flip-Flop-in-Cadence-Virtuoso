@@ -301,7 +301,7 @@ Please refer to the original publication for the complete theoretical methodolog
 
 ## Authors
 
-- **Bharat Kumar DD**
+- **Bharat Dhulgond**
 - **Vinay P Ramesh**
 - **R Vaikunth**
 - **Surya Sumeet Singh**
