@@ -58,10 +58,10 @@ This repository presents the implementation and comparison of multiple DETFF arc
 ## Repository Structure
 
 ```
-├── docs/
+├── Documents/
 │   ├── Project_Report.pdf
 │   ├── Final_Presentation.pdf
-│   └── Paper.pdf
+│   └── Reference_Papers/
 │
 ├── cadence/
 │   ├── schematics/
