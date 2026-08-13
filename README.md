@@ -217,15 +217,21 @@ The repository includes plots and analysis covering:
 - Flip-flop functional behavior
 - Comparative performance analysis
 
-The final comparison plots are available in:
 
-```text
-DETFF_Plots/
-|
-+-- Delay_Vdd_Final.png
-+-- Power_Corner_Final.png
-+-- Power_Vdd_Final.png
-```
+### Final Comparison Plots
+
+**Power vs. Supply Voltage**
+
+![Power vs Supply Voltage](DETFF_Plots/Power_Vdd_Final.png)
+
+**Delay vs. Supply Voltage**
+
+![Delay vs Supply Voltage](DETFF_Plots/Delay_Vdd_Final.png)
+
+**Power vs. Process Corner**
+
+![Power vs Process Corner](DETFF_Plots/Power_Corner_Final.png)
+
 
 ---
 
@@ -242,20 +248,6 @@ The proposed architecture is therefore evaluated against conventional DETFF impl
 ## Verification
 
 The implemented circuits undergo multiple stages of verification.
-
-### Final Comparison Plots
-
-**Power vs. Supply Voltage**
-
-![Power vs Supply Voltage](DETFF_Plots/Power_Vdd_Final.png)
-
-**Delay vs. Supply Voltage**
-
-![Delay vs Supply Voltage](DETFF_Plots/Delay_Vdd_Final.png)
-
-**Power vs. Process Corner**
-
-![Power vs Process Corner](DETFF_Plots/Power_Corner_Final.png)
 
 ### Functional Verification
 
