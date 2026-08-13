@@ -7,7 +7,7 @@ A Cadence Virtuoso-based VLSI design project focused on the implementation, simu
 The work culminates in the implementation and evaluation of a **Single-Transistor Clocked (STC) DETFF** architecture based on the referenced IEEE research paper.
 
 ---
-**Tools:** Cadence Virtuoso •
+**Tools•** Cadence Virtuoso •
 ---
 
 ## Project Overview
